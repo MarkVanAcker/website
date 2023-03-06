@@ -126,7 +126,7 @@ Matrix4<T>& invertIt()
 
 The Gauss-Jordan elimination method at this step processes the column one by one from left to right.
 
-In this step, we will first row-reduce the coefficients (in other words, eliminate the numbers) of each column apart under the column pivot coefficient, which we won't touch for now. In order, \(M_{21}\) (we skip \(M_{11}\) since it's a pivot coefficient), \(M_{31}\), \(M_{41}\), then \(M_{32}\) (we skip \(M_{22}\) since it's a pivot coefficient), \(M_{42}\), and finally  \(M_{32}\). There is no coefficient under \(M_{44}\) so note that we can skip the last column. We are about to eliminate the numbers in green in the below matrix.
+In this step, we will first row-reduce the coefficients (in other words, eliminate the numbers) of each column apart under the column pivot coefficient, which we won't touch for now. In order, \(M_{21}\) (we skip \(M_{11}\) since it's a pivot coefficient), \(M_{31}\), \(M_{41}\), then \(M_{32}\) (we skip \(M_{22}\) since it's a pivot coefficient), \(M_{42}\), and finally  \(M_{43}\). There is no coefficient under \(M_{44}\) so note that we can skip the last column. We are about to eliminate the numbers in green in the below matrix.
 
 $$
 \begin{bmatrix}
